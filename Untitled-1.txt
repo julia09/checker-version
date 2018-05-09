@@ -1,0 +1,24 @@
+Buffer
+String
+Object
+
+fs.readFile -> Buffer/String
+
+var a = Buffer();
+var b = a.toString('utf8') -> String
+
+var c = JSON.parse(b) -> Object
+
+c.dependencies[name]
+
+
+var d = JSON.stringify(c)
+var e = new Buffer(d)
+
+for(var a in obj) {
+    obj[a]
+}
+
+Object.keys(obj).forEach(function(val) {
+    obj[val]
+}) -> ['name', 'name2']
